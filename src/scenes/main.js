@@ -16,6 +16,7 @@ export class MainScene extends Phaser.Scene {
 
         // Events
         this.input.on('pointerdown', (pointer) => {
+            console.log('Pointer down');
         });
     }
 
